@@ -1,52 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi Página de Zapatillas</title>
-</head>
-<style>
-  a { text-decoration: none; font-size: 24px; margin-right: 20px;}
-        a:hover{
-            background-color:rgb(250, 234, 141);
-            color: black;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Zapatillas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
         }
-</style>
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        div {
+            width: 300px;
+            border: 1px solid #ddd;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px black;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        div:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contacto,
+        .redes-sociales {
+            margin: 5px; /* Ajusta el margen */
+            text-align: center; /* Para centrar el contenido */
+            background-color: transparent; /* Fondo transparente */
+        }
+
+        .redes-sociales a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
 <body>
-  <header>
-    <h1>Las mejores zapatillas del mercado</h1>
-    <nav>
-      
-    <a href="#">Inicio</a></li>
-    <a href="Productos.html">Productos</a></li>
-    <a href="#">Contacto</a></li>
-      
-    </nav>
-  </header>
 
-  <main>
-    <section>
-      <h2>Zapatillas populares</h2>
-      <div class="sneaker">
-        <img src="https://images.stockx.com/images/Air-Jordan-1-High-Golf-Gift-Giving-Pack.jpg?fit=fill&bg=FFFFFF&w=78&h=56&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1700160527&q=57" alt="Zapatillas populares">
-        <h3>Nombre del Modelo</h3>
-        <p>Descripción de las zapatillas y su precio.</p>
-      </div>
-      <!-- Repite este bloque para más zapatillas -->
-    </section>
+    <header>
+        <h1>Tienda de Zapatillas</h1>
+    </header>
 
     <section>
-      <h2>Nuevas llegadas</h2>
-      <div class="sneaker">
-        <img src="url_de_la_imagen" alt="Nuevas llegadas">
-        <h3>Otro Modelo</h3>
-        <p>Descripción de las nuevas zapatillas y su precio.</p>
-      </div>
-      <!-- Repite este bloque para más zapatillas -->
-    </section>
-  </main>
+        <a href="zapatilla1.html">
+            <div>
+                <img src="zapatilla1.jpg" alt="Zapatilla 1">
+                <h3>Zapatilla 1</h3>
+                <p>Descripción de la zapatilla 1.</p>
+                <p>Precio: $50</p>
+            </div>
+        </a>
 
-  <footer>
-    <p>Derechos de autor © 2023. Mi Página de Zapatillas</p>
-  </footer>
+        <a href="zapatilla2.html">
+            <div>
+                <img src="zapatilla2.jpg" alt="Zapatilla 2">
+                <h3>Zapatilla 2</h3>
+                <p>Descripción de la zapatilla 2.</p>
+                <p>Precio: $60</p>
+            </div>
+        </a>
+
+        <a href="zapatilla3.html">
+            <div>
+                <img src="zapatilla3.jpg" alt="Zapatilla 3">
+                <h3>Zapatilla 3</h3>
+                <p>Descripción de la zapatilla 3.</p>
+                <p>Precio: $70</p>
+            </div>
+        </a>
+
+        <a href="zapatilla4.html">
+            <div>
+                <img src="zapatilla4.jpg" alt="Zapatilla 4">
+                <h3>Zapatilla 4</h3>
+                <p>Descripción de la zapatilla 4.</p>
+                <p>Precio: $80</p>
+            </div>
+        </a>
+    </section>
+
+    <footer>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p><a href="contacto.html">Formulario de contacto</a></p>
+        </div>
+
+        <div class="redes-sociales">
+            <h3>Redes Sociales</h3>
+            <a href="https://linktr.ee/jferrui0803">Redes</a>
+        </div>
+
+    </footer>
+
 </body>
 </html>
