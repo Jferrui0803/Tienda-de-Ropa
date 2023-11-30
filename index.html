@@ -1,141 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Zapatillas</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-
-        section {
-            padding: 20px;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        div {
-            width: 300px;
-            border: 1px solid #ddd;
-            margin: 15px;
-            padding: 15px;
-            text-align: center;
-            background-color: #fff;
-            box-shadow: 0 4px 8px black;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        div:hover {
-            transform: scale(1.05);
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .contacto,
-        .redes-sociales {
-            margin: 5px; /* Ajusta el margen */
-            text-align: center; /* Para centrar el contenido */
-            background-color: transparent; /* Fondo transparente */
-        }
-
-        .redes-sociales a {
-            margin: 0 10px;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Tienda de Zapatillas</h1>
+    <link rel="stylesheet" href="estiloIndex.css">
+    <title>Tienda de ropa</title>
+    
+  </head>
+  <body>
+    <header style="clear: both;">
+      <h1>Ecece´s Shopping</h1>
+      <nav>
+        <ul>
+          <li>
+            <h2>Selecciona el producto que quieras comprar</h2>
+            <ul>
+              <li><a href="camisetas.html">Camisetas</a></li>
+              <li><a href="#">Pantalones</a></li>
+              <li><a href="#">Sudaderas</a></li>
+              <li><a href="#">Chaquetas</a></li>
+              <li><a href="#">Chalecos</a></li>
+              <li><a href="#">Ropa interior</a></li>
+              <li><a href="#">Zapatillas</a></li>
+             
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </header>
-
-    <section>
-        <a href="zapatilla1.html">
-            <div>
-                <img src="zapatilla1.jpg" alt="Zapatilla 1">
-                <h3>Zapatilla 1</h3>
-                <p>Descripción de la zapatilla 1.</p>
-                <p>Precio: $50</p>
-            </div>
-        </a>
-
-        <a href="zapatilla2.html">
-            <div>
-                <img src="zapatilla2.jpg" alt="Zapatilla 2">
-                <h3>Zapatilla 2</h3>
-                <p>Descripción de la zapatilla 2.</p>
-                <p>Precio: $60</p>
-            </div>
-        </a>
-
-        <a href="zapatilla3.html">
-            <div>
-                <img src="zapatilla3.jpg" alt="Zapatilla 3">
-                <h3>Zapatilla 3</h3>
-                <p>Descripción de la zapatilla 3.</p>
-                <p>Precio: $70</p>
-            </div>
-        </a>
-
-        <a href="zapatilla4.html">
-            <div>
-                <img src="zapatilla4.jpg" alt="Zapatilla 4">
-                <h3>Zapatilla 4</h3>
-                <p>Descripción de la zapatilla 4.</p>
-                <p>Precio: $80</p>
-            </div>
-        </a>
-    </section>
-
-    <footer>
-        <div class="contacto">
-            <h3>Contacto</h3>
-            <p><a href="contacto.html">Formulario de contacto</a></p>
-        </div>
-
-        <div class="redes-sociales">
-            <h3>Redes Sociales</h3>
-            <a href="https://linktr.ee/jferrui0803">Redes</a>
-        </div>
-
+    
+    <div style="clear: both;" id="contenido">
+     <img src="marca.jpg">
+                    </div>
+    <footer style="clear: both;">
+      <div class="contacto"> <a href="contacto.html">Contacto</a> </div>
+      <div class="copy"> © 2023 Ecece´s Shopping </div>
+      <div class="redes-sociales"> <a href="https://linktr.ee/jferrui0803">Redes
+          Sociales</a> </div>
     </footer>
-
-</body>
+  </body>
 </html>
+
+
