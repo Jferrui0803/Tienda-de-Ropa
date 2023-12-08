@@ -76,11 +76,11 @@
         }
 
         #contenido {
-      background-image: url('marca.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh; 
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+            background-image: url('../Recursos/marca.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
